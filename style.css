@@ -1,0 +1,61 @@
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+p {
+    margin-bottom: 0;
+}
+.dashboard_section {
+    margin-top: 50px;
+}
+.margin_side {
+    margin: 0 20px;
+}
+
+.customer {
+    padding: 30px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 10px;
+    z-index: 2;
+    
+}
+.customer_info  {
+    margin-left: 15px;
+}
+.customer_info .muted_text {
+    margin-bottom: 0;
+    color: #6c757d;
+}
+.customer_info .client_name {
+    color: white;
+}
+.data_card {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+.task_card {
+    margin-top: 20px;
+   
+}
+.activity_img {
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 10px;
+}
+.activity_img img{
+    height: 79px;
+    width: 79px;
+}
+.task_info {
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+}
+
+.nav-link:hover, .nav-link:checked {
+    color: white;
+    cursor: pointer;
+}
+
