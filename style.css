@@ -16,7 +16,7 @@ p {
     background-color: hsl(246, 80%, 60%);
     border-radius: 10px;
     z-index: 2;
-    
+
 }
 .customer_info  {
     margin-left: 15px;
@@ -32,12 +32,9 @@ p {
     background-color: hsl(235, 46%, 20%);
     border-radius: 10px;
     position: relative;
-    padding: 20px;
 }
-.task_card {
-    margin-top: 20px;
-   
-}
+
+
 .activity_img {
     background-color: hsl(15, 100%, 70%);
     border-radius: 10px;
@@ -54,8 +51,16 @@ p {
     top: -20px;
 }
 
-.nav-link:hover, .nav-link:checked {
-    color: white;
-    cursor: pointer;
+
+.nav-link:hover, .nav-link:focus{
+    color: white ; 
+    cursor: pointer ;
 }
+a:-webkit-any-link:active {
+    color: white;
+}
+
+
+ 
+
 
